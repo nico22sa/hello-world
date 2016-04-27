@@ -5,53 +5,168 @@
     
     <title>Mis paginas web</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic,italic|Oswald|Bree+Serif">
+
     <style>
-        
+        body, html
+        {
+            margin-left: 35px;
+            margin-right: 35px;
+            margin-top: 25px;
+            margin-bottom: 30px;
+            background-color:rgb(227,230,184);
+            font-size:20px;
+            font-family:'Oswald',sans-serif;
+        }
+        h1
+        {
+            font-family:'Tangerine',serif;
+            font-size: 6.0rem;
+            text-shadow: 16px 16px 16px #aaa;
+            font-style: normal;
+            font-weight: 500;
+            color:rgb(28,72,122)
+        }
+        h3
+        {
+            font-size:1rem;
+            font-family: 'Oswald',sans-serif;
+            font-style: normal;
+            font-weight: 500;
+        }
+        p.heading2
+        {
+            color:black;
+            font-family: 'Oswald',sans-serif;
+            font-style: normal;
+            font-weight:500;
+            font-size:1rem;
+        }
+        summary.heading3
+        {
+           color:black;
+            font-family: 'Oswald',sans-serif;
+            font-style: normal;
+            font-weight:500;
+            font-size:1rem;
+        }
+        .hyperlink
+        {
+            font-family: 'Bree Serif',serif;
+            font-weight:500;
+            font-size:1rem;
+        }
+        .hyperlink:link
+        {
+            color: blue;
+            font-style: normal;
+            text-decoration: none;
+        }
+        .hyperlink:hover
+        {
+            color:blueviolet;
+            font-size: 1.1rem;
+            font-style:italic;
+            text-decoration: underline;
+        }
     </style>
     
 </head>
     
 <body>
-    <h1>Paginas Útiles</h1>
-    <h3>Páginas de Programación Web</h3>
+    <header>
+    <h1 style="text-align: center">Páginas Útiles</h1>
+    <p class="heading2" align="center">I started this webpage not only to practice what I'm learning in the Html course but also to sort out all the bookmarks I collected all over this computer life time (A LOT)</p>
+    <hr>
+    </header>
+    <nav>
+    <a href="#contacto">Contacto</a>
+    </nav>
+    <hr>
+    
+    <details>
+    <summary class="heading3">Páginas de Programación Web</summary>
     <ul>
-        <li><a id="link" href="https://www.w3.org/2009/cheatsheet/#search,li">www.w3.org</a> - <em>Buscador de código</em></li>
-        <li><a id="link" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">developer.mozilla.org</a> - <em>HTML / Atributos</em></li>
-        <li><a href="https://contribute.jquery.org/style-guide/html/">jquery.org</a> - <em>Guia de estilo</em></li>
-        <li><a href="https://google.github.io/styleguide/htmlcssguide.xml">google.github.io</a> - <em>Guia de estilo</em></li>
-        <li><a href="https://validator.w3.org/">validator.w3.org</a> - <em>Validador de usabilidad w3</em></li>
-        <li><a href="http://www.w3schools.com/cssref/pr_background-position.asp">www.w3schools.com</a> - <em>Referencia CSS</em></li>
+        <li><a class="hyperlink" href="https://www.w3.org/2009/cheatsheet/#search,li">www.w3.org</a> - <em>Buscador de código</em></li>
+        <li><a class="hyperlink" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">developer.mozilla.org</a> - <em>HTML / Atributos</em></li>
+        <li><a class="hyperlink" href="https://contribute.jquery.org/style-guide/html/">jquery.org</a> - <em>Guia de estilo</em></li>
+        <li><a class="hyperlink" href="https://google.github.io/styleguide/htmlcssguide.xml">google.github.io</a> - <em>Guia de estilo</em></li>
+        <li><a class="hyperlink" href="https://validator.w3.org/">validator.w3.org</a> - <em>Validador de usabilidad w3</em></li>
+        <li><a class="hyperlink" href="http://www.w3schools.com/cssref/pr_background-position.asp">www.w3schools.com</a> - <em>Referencia CSS</em></li>
+        <li><a class="hyperlink" href="http://jsbin.com/yasuvesubo/edit?html,output">jsbin.com</a> - <em>Prueba tu Codigo Html</em></li>
+        <li><a class="hyperlink" href="https://developers.google.com/fonts/docs/getting_started#specifying_script_subsets">developers.google.com/fonts</a> - <em>Google Font Request</em></li>
+        <li><a class="hyperlink" href="https://www.google.com/fonts">google.com/fonts</a> - <em>Google Font List</em></li>
+        <li><a class="hyperlink" href="http://www.colorpicker.com/">www.colorpicker.com</a> - <em>Selector RGB</em></li>
+        <li><a class="hyperlink" href="http://www.w3schools.com/css/css_syntax.asp">www.w3schools.com/css/</a> - <em>CSS / Referncia</em></li>
         
     </ul>
+    </details>
     
     <h3>Mis Cursos Web</h3>
     
     <ul>
-        <li><a href="https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+1T2016/courseware/7e7a7ad104714c61b5b7bd35048b9ddc/62ecbaec27424cc7be266896560ecb83/?activate_block_id=block-v1%3AW3Cx%2BHTML5.0x%2B1T2016%2Btype%40sequential%2Bblock%4062ecbaec27424cc7be266896560ecb83&child=first">edx.org</a> - <em>Introduccion al Html</em></li>
-        <li><a href="https://es.coursera.org/">coursera.org</a> - <em>Varios Cursos</em></li>
-        <li><a href="https://www.khanacademy.org/computer-programming/html-the-image-tag/4800922048004096">www.khanacademy.org</a> - <em>Html</em></li>
-        <li><a href="https://www.codeschool.com/">www.codeschool.com</a> - <em>Varios Cursos</em></li>
-                
+        <li><a class="hyperlink" href="https://courses.edx.org/">edx.org</a> - <em>Introduccion al Html</em></li>
+        <li><a class="hyperlink" href="https://es.coursera.org/">coursera.org</a> - <em>Varios Cursos</em></li>
+        <li><a class="hyperlink" href="https://www.khanacademy.org/computer-programming/html-the-image-tag/4800922048004096">www.khanacademy.org</a> - <em>Html</em></li>
+        <li><a class="hyperlink" href="https://www.codeschool.com/">www.codeschool.com</a> - <em>Varios Cursos</em></li>
     </ul>
     
     <h3>Programación</h3>
     
     <ul>
-        <li><a href="http://www.visualino.net/index.es.html">www.visualino.net</a> - <em>Programacion de visual de Arduino</em></li>
+        <li><a class="hyperlink" href="http://www.visualino.net/index.es.html">www.visualino.net</a> - <em>Programacion de visual de Arduino</em></li>
+        <li><a class="hyperlink" href="http://www.tutorialspoint.com/apache_poi/apache_poi_overview.htm">www.tutorialspoint.com</a> - <em>Tutorial Apache POI - Java</em></li>
+    </ul>
+    
+    <h3>Linux</h3>
+    
+    <ul>
+        <li><a class="hyperlink" href="http://glx-dock.org/">glx-dock.org</a> - <em>GDock configuracion</em></li>
+        <li><a class="hyperlink" href="http://somebooks.es/?p=5649">somebooks.es</a> - <em>Gadgets Linux</em></li>
     </ul>
     
     <h3>Matemática</h3>
     
     <ul>
-        <li><a href="http://es.mathworks.com/matlabcentral/newsreader/view_thread/335700">es.mathworks.com</a> - <em>Matlab</em></li>
+        <li><a class="hyperlink" href="http://es.mathworks.com/matlabcentral/newsreader/view_thread/335700">es.mathworks.com</a> - <em>Matlab</em></li>
     </ul>
     
     <h3>Física</h3>
     
     <ul>
-        <li><a href="https://www.scienceathome.org/game-based-education/tracks">www.scienceathome.org</a> - <em>Mecanica Cuantica</em></li>
+        <li><a class="hyperlink" href="https://www.scienceathome.org/game-based-education/tracks">www.scienceathome.org</a> - <em>Mecanica Cuantica</em></li>
     </ul>
     
+    <h3>Idiomas</h3>
+    
+    <ul>
+        <li><a class="hyperlink" href="http://www.crazylemontree.se/">www.crazylemontree.se</a> - <em>Noruego</em></li>
+    </ul>
+    
+    <h3>Libros Digital</h3>
+    
+    <ul>
+        <li><a class="hyperlink" href="https://drive.google.com/folderview?id=0B1dRcu0qQ1ebZXNKTWhaM1lMYXM&usp=sharing">drive folder 1</a> - <em>Libros Carpeta 1</em></li>
+        <li><a class="hyperlink" href="https://drive.google.com/folderview?id=0B1dRcu0qQ1ebWERZYlB1QzZZazg&usp=sharing#list">drive folder 2</a> - <em>Libros Carpeta 2</em></li>
+    </ul>
+    
+    <h3>Ecología</h3>
+    
+    <ul>
+        <li><a class="hyperlink" href="http://www.labioguia.com/notas/como-plantar-tu-propia-planta-de-cebollines-y-ahorrar-dinero">www.labioguia.com</a> - <em>Plantar Cebollines</em></li>
+        <li><a class="hyperlink" href="http://www.cannabisconsciente.com/preparacion-extractos-cannabis/">www.cannabisconsciente.com</a> - <em>Aceite de cannabis</em></li>
+        <li><a class="hyperlink" href="http://www.labioguia.com/notas/una-leccion-importante-que-todos-los-obsesivos-deberian-aprender">www.labioguia.com</a> - <em>Video Destino</em></li>
+    </ul>
+    
+    <h3>Interesante</h3>
+    <a class="hyperlink" href="http://upliftconnect.com/science-proves-meridians-exist/">Los Meridianos Corporales</a> - <em>Naturologia</em>
+    <br><br>
+    <a class="hyperlink" href="file:///home/nico/Desktop/Webpage/Images/giphy.gif" download="transportemagnetico.gif"><img src="file:///home/nico/Desktop/Webpage/Images/giphy.gif" alt="transporte magnetico" title="Click on image to download &#34Transporte Magnético&#34"></a> 
+    
+    <h4 id="contacto">Contacto</h4>
+    <a class="hyperlink" href="https://www.facebook.com/nicolas.santorsola" target="_blank">Facebook</a>
+    <br>
+    <a class="hyperlink" href="mailto:nicolas.santorsola@gmail.com">nicolas.santorsola@gmail.com</a>
     
     
     
